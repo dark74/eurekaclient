@@ -1,0 +1,10 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: eureka-client-consumer
+eureka:
+  client:
+    # 指定服务注册地址为server地址
+    service-url:
+      defaultZone: http://localhost:8100/eureka/
